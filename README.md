@@ -24,6 +24,24 @@ It relies on [Chocolatey](https://chocolatey.org/) under the hood to perform pac
 - Windows 10 or Windows 11
 - Network access to a running **Gloop server**
 
+## Update
+
+Updating existing clients on workstations is done automatically by updating the **gloop-server** Docker container to a newer version. The installation file provided by this repository is only used for installing new clients.
+
+It is recommended to use the version of **gloop-manager** that corresponds to your **gloop-server** version in order to benefit from the latest features.
+
+## Changelog
+
+### v0.5.0
+- **Major update** with new features
+- Added expert mode with debug and simulation capabilities
+- Added client workstation shutdown scheduling functionality
+
+### v0.4.0
+- Bug fixes and stability improvements
+
+### v0.2.0
+- Initial public release
 
 ## License
 
